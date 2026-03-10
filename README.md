@@ -72,15 +72,18 @@ Os arquivos gerados ficam na pasta `dist/` — prontos para deploy em qualquer h
 ## 📁 Estrutura do projeto
 
 ```
-canaa-dashboard/
-├── index.html          # Entry point HTML
-├── vite.config.js      # Config do Vite
+Portal-Cana-2.0/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml   ← tem isso?
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
 ├── package.json
-├── .gitignore
-└── src/
-    ├── main.jsx        # Monta o React na página
-    ├── index.css       # Reset global
-    └── App.jsx         # Dashboard completo (componente principal)
+├── vite.config.js
+└── .gitignore
 ```
 
 ---
